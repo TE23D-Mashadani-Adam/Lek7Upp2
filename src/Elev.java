@@ -1,6 +1,6 @@
 public class Elev extends BaseClass {
-    String klass;
-    String[] pågåendeKurser;
+    private String klass;
+    private String[] pågåendeKurser;
     
     public Elev(String namn, int perNum, String biträdesAnledning, String klass, String[] pågåendeKurser) {
         super(namn, perNum, biträdesAnledning);
@@ -8,7 +8,14 @@ public class Elev extends BaseClass {
         this.pågåendeKurser = pågåendeKurser;
     }
 
-    
+    public void setKlass(String klass) {
+        this.klass = klass;
+    }
 
+    public void setPågåendeKurser(String[] pågåendeKurser) {
+        this.pågåendeKurser = pågåendeKurser;
+    }
+
+    
 
 }

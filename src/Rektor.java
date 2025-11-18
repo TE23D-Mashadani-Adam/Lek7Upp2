@@ -1,8 +1,6 @@
 public class Rektor extends PersonalBasKlass {
     String programAnsvar;
     
-    
-
     public Rektor(String namn, int perNum, String biträdesAnledning, String kontor, String kontrakt,
             String programAnsvar) {
         super(namn, perNum, biträdesAnledning, kontor, kontrakt);
@@ -21,6 +19,7 @@ public class Rektor extends PersonalBasKlass {
         return kontrakt;
     }
 
-    
+   
 
+    
 }
